@@ -24,5 +24,13 @@ namespace Calculator
 
             OutputTextbox.Text = output.ToString();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int output = Convert.ToInt32(FirstNumberTextbox.Text) -
+                Convert.ToInt32(SecondNumberTextbox.Text);
+
+            OutputTextbox.Text = output.ToString();
+        }
     }
 }
